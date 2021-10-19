@@ -64,7 +64,6 @@ def extract_subs():
 
     mypath = path.abspath(os.getcwd()) + f"/frame_{EP}/"
     print(mypath)
-    return 0
     if not os.path.isdir(mypath):
         os.mkdir(mypath)
     print(mypath)
