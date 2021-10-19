@@ -1,6 +1,6 @@
 # $1 - file.mp4
 echo "$pwd"
-if [[ $# -eq 2 ]]; then
+if [[ $# -lt 2 ]]; then
 	echo "wrong number of arguments!"
 	exit 1
 fi
