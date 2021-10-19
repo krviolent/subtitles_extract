@@ -36,7 +36,7 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 	3. Subtitle Edit - form srt file, adjust subtitles duration (2000 ms)
 	   Auto-translate or use https://translatesubtitles.co/
 	 
-# Optinal (replace names, for example):
+# Optional (replace names, for example):
 	bash scripts/replace.sh
 	
 	command to replace A -> B:
