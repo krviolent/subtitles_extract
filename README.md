@@ -1,5 +1,5 @@
 # subtitles_extract
-Tool for extract hardcoded chinese subtitles from video files with 720p resolution based on [EasyOCR](https://github.com/JaidedAI/EasyOCR) tool by [JaidedAI](https://github.com/JaidedAI)
+Tool for extraction hardcoded chinese subtitles from video files with 720p resolution based on [EasyOCR](https://github.com/JaidedAI/EasyOCR) tool by [JaidedAI](https://github.com/JaidedAI)
 	
 # Extract OCR subtitles from video files with resolution 720p (1280 × 720)
  
