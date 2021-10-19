@@ -100,7 +100,7 @@ def extract_subs():
     #save_subs(subs_filtered, filename)
     subs_dir = path.abspath(os.getcwd()) + f"/subs/EP.A.{EP}/"
     os.makedirs(subs_dir)
-    save_subs(subs, os.getcwd() + "/subs/" + filename)
+    save_subs(subs, filename)
     # print programm running time
     print("--- %s seconds ---" % gettime_norm(int(time.time() - start_time)))
     lines = list()
