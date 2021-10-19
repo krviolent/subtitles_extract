@@ -16,7 +16,8 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 # Use:
 	Tested on WSL Ubuntu 20.04. Meet some difficulties running CUDA on Windows to use GPU for OCR.
 	
-		bash scripts/run_extract_subs.sh [video.mp4] [episode_number] [duration_in_seconds]
+		bash scripts/run_extract_subs.sh [video.mp4] [episode_number] [duration_of_video_in_seconds]
+		[duration_of_video_in_seconds] - optional argument
 	Example:
 		bash scripts/run_extract_subs.sh video_ep34.mp4 34 2600
 
