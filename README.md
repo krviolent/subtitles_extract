@@ -39,4 +39,4 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 	sed -i -e 's/[A]/[B]/g' subs_file.srt
 	This might not work quite right.
 # Info
-	Duplicated subs no removed during extraction, because same phrases might be repeated during video
+	Duplicated subs not removed during extraction, because same phrases might be repeated during video
