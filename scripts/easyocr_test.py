@@ -99,7 +99,8 @@ def extract_subs():
     print(f"Saving subs to {filename}")
     #save_subs(subs_filtered, filename)
     subs_dir = path.abspath(os.getcwd()) + f"/subs/EP.A.{EP}/"
-    os.makedirs(subs_dir)
+    if not os.path.isdir(subs_dir):
+	os.makedirs(subs_dir)
     save_subs(subs, filename)
     # print programm running time
     print("--- %s seconds ---" % gettime_norm(int(time.time() - start_time)))
