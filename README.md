@@ -44,4 +44,4 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 	This might not work quite right.
 # Info
 	Duplicated subs not removed during extraction, because same phrases might be repeated during video.
-	Also there are errors during recognition of chinese characters
+	Also sometimes recognition accuracy is not sophisticated.
