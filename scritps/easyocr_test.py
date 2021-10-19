@@ -95,7 +95,7 @@ def extract_subs():
     #print("Filtering subs...")
     #subs_filtered = remove_dups_in_dict(subs)
     #print("Filtering done!")
-    filename = f"subs_file{EP}.txt"
+    filename = os.getcwd() + "/subs/" + f"subs_file{EP}.txt"
     print(f"Saving subs to {filename}")
     #save_subs(subs_filtered, filename)
     subs_dir = path.abspath(os.getcwd()) + f"/subs/EP.A.{EP}/"
