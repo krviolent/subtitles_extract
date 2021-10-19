@@ -3,7 +3,9 @@ Tool for extract hardcoded chinese subtitles from video files with 720p resoluti
 	
 # Extract OCR subtitles from video files with resolution 720p (1280 × 720)
  
-
+# Download:
+	git clone https://github.com/krviolent/subtitles_extract.git
+ 	or Code - Download ZIP and extract
 # Install requirements:
 	python3, ffmpeg, easyocr (https://github.com/JaidedAI/EasyOCR):
 	sudo apt install python3
