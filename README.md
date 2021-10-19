@@ -5,12 +5,13 @@ Tool for extraction hardcoded chinese subtitles from video files with 720p resol
 	git clone https://github.com/krviolent/subtitles_extract.git
  	or Code - Download ZIP and extract
 # Install requirements:
-	python3, ffmpeg, easyocr (https://github.com/JaidedAI/EasyOCR):
+	Install python3, ffmpeg, easyocr (https://github.com/JaidedAI/EasyOCR):
 	sudo apt install python3
 	sudo apt install ffmpeg
 	python3 -m pip install easyocr
 
 # Use:
+	Tested on WSL Ubuntu 20.04. Meet some difficulties running CUDA on Windows to use GPU for OCR.
 	bash scripts/run_extract_subs.sh [video.mp4] [episode_number] [duration_in_seconds]
 
 # Steps to extract subtitles into the text file:
