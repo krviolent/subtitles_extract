@@ -6,7 +6,7 @@ Tool for extraction hardcoded chinese subtitles from video files with 720p resol
  	or Code - Download ZIP and extract
 # Install requirements:
 	OS: Windows 10/WSL
-	[Enable and install WSL](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
+	Enable and install WSL https://www.windowscentral.com/install-windows-subsystem-linux-windows-10
 	Install python3, ffmpeg, easyocr (https://github.com/JaidedAI/EasyOCR):
 	sudo apt install python3
 	sudo apt install ffmpeg
