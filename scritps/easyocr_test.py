@@ -72,11 +72,11 @@ def extract_subs():
     onlyfiles.sort()
     #print(onlyfiles)
     frame_number = 0
-    if isinstance(sys.argv[2], int):
-        frame_number = sys.argv[2]
-    else:
-        frames_number = 2610 # 2582 - 43 минуты
-
+    try:
+    	if isinstance(sys.argv[2], int):
+        	frames_number = int(sys.argv[2])
+    except:
+    	frames_number = 2610 # 2582 - 43 минуты
     if frames_number > len(onlyfiles):
         frames_number = len(onlyfiles)
 
