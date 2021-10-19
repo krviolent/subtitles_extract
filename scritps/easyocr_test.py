@@ -73,7 +73,7 @@ def extract_subs():
     #print(onlyfiles)
     frame_number = 0
     try:
-    	if isinstance(sys.argv[2], int):
+    	if isinstance(int(sys.argv[2]), int):
         	frames_number = int(sys.argv[2])
     except:
     	frames_number = 2610 # 2582 - 43 минуты
