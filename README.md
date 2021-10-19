@@ -20,6 +20,8 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 		[duration_of_video_in_seconds] - optional argument
 	Example:
 		bash scripts/run_extract_subs.sh video_ep34.mp4 34 2600
+	Divide subs_file_[EP].txt into the timestamps.txt and textonly.txt:
+		bash scripts/divide_timestamp_and_text.py [episode_number]
 
 # Steps to extract subtitles into the text file:
 	1. crop.sh -> frame_xx/*.jpg
