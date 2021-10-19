@@ -38,3 +38,5 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 	command to replace A -> B:
 	sed -i -e 's/[A]/[B]/g' subs_file.srt
 	This might not work quite right.
+# Info
+	Duplicated subs no removed during extraction, because same phrases might be repeated during video
