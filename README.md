@@ -12,7 +12,7 @@ Tool for extraction hardcoded chinese subtitles from video files with 720p resol
 
 # Use:
 	Tested on WSL Ubuntu 20.04. Meet some difficulties running CUDA on Windows to use GPU for OCR.
-	bash scripts/run_extract_subs.sh [video.mp4] [episode_number] [duration_in_seconds]
+		bash scripts/run_extract_subs.sh [video.mp4] [episode_number] [duration_in_seconds]
 
 # Steps to extract subtitles into the text file:
 	1. crop.sh -> frame_xx/*.jpg
