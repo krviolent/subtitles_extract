@@ -33,7 +33,7 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 		python3 easyocr_test.py [episode_number] [duration_in_seconds]
 		Output files will saved in files:
 			subs/subs_file_[episode_number].txt
-			subs/EP.A.[episode_number]/subs[episode_number].srt
+			subs/EP.A.[episode_number]/subs_[episode_number].srt
 	3. Auto-translate using https://translatesubtitles.co/
 	 
 # Optional (replace names, for example):
