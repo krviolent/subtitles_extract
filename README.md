@@ -34,7 +34,7 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 		Output files will saved in files:
 			subs/subs_file_[episode_number].txt
 			subs/EP.A.[episode_number]/subs_[episode_number].srt
-	3. Auto-translate using https://translatesubtitles.co/
+	3. Auto-translate obtained subs using https://translatesubtitles.co/
 	 
 # Optional (replace names, for example):
 	bash scripts/replace.sh
