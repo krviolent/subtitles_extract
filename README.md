@@ -13,7 +13,9 @@ Instructions: [Enable and install WSL](https://www.windowscentral.com/install-wi
 	Install python3, ffmpeg, easyocr (https://github.com/JaidedAI/EasyOCR):
 	sudo apt install python3
 	sudo apt install ffmpeg
-	python3 -m pip install easyocr
+	git clone https://github.com/JaidedAI/EasyOCR.git
+	cd EasyOCR
+	sudo python3 setup.py install
 
 # Use:
 	Tested on WSL Ubuntu 20.04. Meet some difficulties running CUDA on Windows to use GPU for OCR.
