@@ -5,7 +5,7 @@ Inspride by [Entrepreneurial Age/创业时代 (2018)](https://www.imdb.com/title
  
 # Download:
 	git clone https://github.com/krviolent/subtitles_extract.git
- 	or Code - Download ZIP and extract
+ 	or tap Code -> Download ZIP and extract
 # Install requirements:
 OS: Windows 10/WSL
 Instructions: [Enable and install WSL](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
